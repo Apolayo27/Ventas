@@ -17,6 +17,7 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+import com.sun.beans.decoder.TrueElementHandler
 
 import internal.GlobalVariable
 
@@ -68,7 +69,7 @@ class loginstep {
 
 	@Then("I should see the expected text")
 	def I_should_see_the_expected_text() {
-		WebUI.verifyTextPresent('Click for Generating JavaScript Alert', false)
+		WebUI.verifyTextPresent('Click for Generating JavaScript Alert', true)
 		WebUI.closeBrowser()
 	}
 }
