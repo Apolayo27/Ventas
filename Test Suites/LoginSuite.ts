@@ -4,7 +4,7 @@
    <name>LoginSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-02T11:43:15</lastRun>
+   <lastRun>2018-11-06T14:32:39</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
