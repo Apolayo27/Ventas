@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.27238">
+<testcase classname="Login" name="Test the login functionality of EA application" time="19.27238">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Unable to set text 'admin' of object 'Object Repository/Page_Execute Automation/input_Login_UserName' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=70.0.3538.77)&#10;  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'&#10;System info: host: 'MOVMACTDI12.local', ip: 'fe80:0:0:0:4a6:bc90:e034:62aa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'&#10;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/mz/bwwvrrl97bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}&#10;Session ID: 7511d22c294bdba71f403d702849ee68&#10;*** Element info: {Using=xpath, value=//input[@name='UserName']})&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)&#10;&#9;at loginsteps.loginstep.I_enter_username_password(loginstep.groovy:61)&#10;&#9;at ✽.I enter username &quot;admin&quot; password &quot;password&quot;(/Users/mapolayom/Katalon/Ventas/Include/features/login.feature:26)&#10;"><![CDATA[Given I navigate the login page.............................................passed
+When I enter username "admin" password "password"...........................failed
+And I click login button....................................................skipped
+Then I should see the expected text.........................................skipped
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'admin' of object 'Object Repository/Page_Execute Automation/input_Login_UserName' (Root cause: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MOVMACTDI12.local', ip: 'fe80:0:0:0:4a6:bc90:e034:62aa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/mz/bwwvrrl97bs...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 7511d22c294bdba71f403d702849ee68
+*** Element info: {Using=xpath, value=//input[@name='UserName']})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at loginsteps.loginstep.I_enter_username_password(loginstep.groovy:61)
+	at ✽.I enter username "admin" password "password"(/Users/mapolayom/Katalon/Ventas/Include/features/login.feature:26)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-LoginSuite,Chrome 70.0.3538.77,,2018-11-02 09:34:06,2018-11-02 09:34:11,4.989s,PASSED
-,,,,,,
-Test Cases/logintc,Chrome 70.0.3538.77,,2018-11-02 09:34:07,2018-11-02 09:34:11,4.550s,PASSED
-runFeatureFile,Chrome 70.0.3538.77,,2018-11-02 09:34:07,2018-11-02 09:34:11,4.264s,PASSED

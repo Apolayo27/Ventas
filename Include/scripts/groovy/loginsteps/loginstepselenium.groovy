@@ -18,8 +18,6 @@ class loginstepselenium {
 	@Given("I navigate the login page selenium")
 	def I_navigate_the_login_page_selenium() {
 
-
-
 		System.setProperty("webdriver.chrome.driver", "/Users/mapolayom/Documents/QA/Automatizacion/chromedriver")
 		driver = new ChromeDriver()
 		DriverFactory.changeWebDriver(driver)
@@ -53,10 +51,6 @@ class loginstepselenium {
 		else {
 			System.out.println("Perfect not Displayed !!!");
 		}
-
-
-
-
 
 		//WebUI.verifyTextPresent('Click for Generating JavaScript Alert', true)
 		driver.close()

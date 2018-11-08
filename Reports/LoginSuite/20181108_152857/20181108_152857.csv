@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginSuite,Chrome 70.0.3538.77,,2018-11-08 15:29:01,2018-11-08 15:29:23,22.247s,FAILED
+,,,,,,
+Test Cases/testapi,Chrome 70.0.3538.77,,2018-11-08 15:29:01,2018-11-08 15:29:02,0.441s,FAILED
+sendRequest,Chrome 70.0.3538.77,,2018-11-08 15:29:02,2018-11-08 15:29:02,0.114s,FAILED
+,,,,,,
+Test Cases/logintcselenium,Chrome 70.0.3538.77,,2018-11-08 15:29:02,2018-11-08 15:29:14,11.868s,PASSED
+runFeatureFile,Chrome 70.0.3538.77,,2018-11-08 15:29:02,2018-11-08 15:29:14,11.539s,PASSED
+,,,,,,
+Test Cases/logintc,Chrome 70.0.3538.77,,2018-11-08 15:29:14,2018-11-08 15:29:23,9.390s,FAILED
+runFeatureFile,Chrome 70.0.3538.77,,2018-11-08 15:29:14,2018-11-08 15:29:23,9.177s,FAILED

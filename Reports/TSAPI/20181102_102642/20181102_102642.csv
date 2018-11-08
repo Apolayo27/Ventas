@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-TSAPI,,,2018-11-02 10:26:44,2018-11-02 10:26:46,1.742s,PASSED
-,,,,,,
-Test Cases/testapi,,,2018-11-02 10:26:44,2018-11-02 10:26:46,1.334s,PASSED
-sendRequest,,,2018-11-02 10:26:45,2018-11-02 10:26:46,1.031s,PASSED

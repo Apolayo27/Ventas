@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="3.397286">
+<testcase classname="Login" name="Test the login functionality of EA application with selenium" time="3.397286">
+<system-out><![CDATA[Given I navigate the login page selenium....................................passed
+When I enter username "admin" password "password" selenium..................passed
+And I click login button selenium...........................................passed
+Then I should see the expected text selenium................................passed
+]]></system-out>
+</testcase>
+</testsuite>

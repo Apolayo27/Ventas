@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginSuite" time="8" tests="3" failures="0" errors="0">
+   <testsuite name="LoginSuite" tests="3" failures="0" errors="0" time="8" timestamp="2018-11-08 17:07:21" hostname="mapolayom - 10.92.30.183" id="Test Suites/LoginSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mapolayom/Katalon/Ventas/Reports/LoginSuite/20181108_170719"/>
+         <property name="logFiles" value="/Users/mapolayom/Katalon/Ventas/Reports/LoginSuite/20181108_170719/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mapolayom - 10.92.30.183"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.1.0.2"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.92.30.183"/>
+         <property name="sessionId" value="a36a0398ed214c7b41655eb676ff0816"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/testapi" classname="Test Cases/testapi" status="PASSED">
+         <system-out><![CDATA[2018-11-08 17:07:21 - [TEST_CASE][PASSED] - Test Cases/testapi: Test Cases/testapi
+
+2018-11-08 17:07:22 - [TEST_STEP][PASSED] - sendRequest: Send request successfully
+
+2018-11-08 17:07:23 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logintcselenium" classname="Test Cases/logintcselenium" status="PASSED">
+         <system-out><![CDATA[2018-11-08 17:07:23 - [TEST_CASE][PASSED] - Test Cases/logintcselenium: Test Cases/logintcselenium
+
+2018-11-08 17:07:23 - [TEST_STEP][PASSED] - runFeatureFile: Feature file: 'Include/features/loginselenium.feature' was passed
+
+2018-11-08 17:07:27 - [MESSAGE][PASSED] - Feature file: 'Include/features/loginselenium.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logintc" classname="Test Cases/logintc" status="PASSED">
+         <system-out><![CDATA[2018-11-08 17:07:27 - [TEST_CASE][PASSED] - Test Cases/logintc: Test Cases/logintc
+
+2018-11-08 17:07:27 - [TEST_STEP][PASSED] - runFeatureFile: Feature file: 'Include/features/login.feature' was passed
+
+2018-11-08 17:07:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-08 17:07:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-08 17:07:29 - [MESSAGE][PASSED] - Navigate to 'http://www.executeautomation.com/demosite/Login.html' successfully
+
+2018-11-08 17:07:29 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Execute Automation/input_Login_UserName'
+
+2018-11-08 17:07:29 - [MESSAGE][PASSED] - Text 'password' is set on object 'Object Repository/Page_Execute Automation/input_Login_Password'
+
+2018-11-08 17:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Execute Automation/input_Login_Login' is clicked on
+
+2018-11-08 17:07:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Execute Automation/input_Click for Generating Jav' has attribute 'value' with value 'Generate'
+
+2018-11-08 17:07:30 - [MESSAGE][PASSED] - Browser is closed
+
+2018-11-08 17:07:30 - [MESSAGE][PASSED] - Feature file: 'Include/features/login.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-08 17:07:21 - [TEST_SUITE][PASSED] - LoginSuite: Test Cases/logintc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

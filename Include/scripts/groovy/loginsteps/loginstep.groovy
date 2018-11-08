@@ -69,7 +69,10 @@ class loginstep {
 
 	@Then("I should see the expected text")
 	def I_should_see_the_expected_text() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Execute Automation/input_Click for Generating Jav'), 20)
+		WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Page_Execute Automation/input_Click for Generating Jav'), 'value', 'Generate', 20)
+		//WebUI.verifyElementText(findTestObject('Object Repository/Page_Execute Automation/input_Click for Generating Jav'), '')
+		//WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Execute Automation/input_Click for Generating Jav'))
+		//WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Execute Automation/input_Click for Generating Jav'), 20)
 		//WebUI.verifyTextPresent('Click for Generating JavaScript Alert', true)
 		WebUI.closeBrowser()
 	}
